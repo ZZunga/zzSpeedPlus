@@ -1,0 +1,9 @@
+info face="TitilliumWeb" size=22 bold=1 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=17 base=16 scaleW=72 scaleH=21 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="c10unitmain_15.png"
+chars count=5
+char id=107 x=2 y=2 width=12 height=16 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=15
+char id=109 x=16 y=2 width=19 height=12 xoffset=0 yoffset=4 xadvance=18 page=0 chnl=15
+char id=105 x=37 y=2 width=6 height=16 xoffset=0 yoffset=0 xadvance=6 page=0 chnl=15
+char id=47 x=45 y=2 width=11 height=17 xoffset=0 yoffset=0 xadvance=10 page=0 chnl=15
+char id=104 x=58 y=2 width=12 height=16 xoffset=0 yoffset=0 xadvance=12 page=0 chnl=15

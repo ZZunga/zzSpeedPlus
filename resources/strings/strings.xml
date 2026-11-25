@@ -1,0 +1,32 @@
+<strings>
+    <string id="AppName">zzSpeedPlus</string>
+    <string id="appVersion_title">Version info.</string>
+
+    <string id="dataMode_title">Select sub display item</string>
+    <string id="speedMov_title">Mov. Avg (excl. stops)</string>
+    <string id="speedAbs_title">Abs. Avg (incl. stops, brevet)</string>
+    <string id="speedMax_title">Max. Speed</string>
+    <string id="speedLap_title">Lap. Avg</string>
+    <string id="none_title">None</string>
+    <string id="showTwoDecimal_title">Show two decimals</string>
+
+    <string id="threshold">%-Threshold (0-100%)</string>
+
+    <string id="colorHigh">Fast Font Color</string>
+    <string id="colorLow">Slow Font Color</string>
+    <string id="colorRed">Red/Dark Red(night/daytime)</string>
+    <string id="colorOrange">Orange</string>
+    <string id="colorYellow">Yellow</string>
+    <string id="colorYellowOrange">Yellow/Orange(night/daytime)</string>
+    <string id="colorGreen">Green/Dark Green(night/daytime)</string>
+    <string id="colorBlue">Blue/Dark Blue(night/daytime)</string>
+    <string id="colorPurple">Purple</string>
+    <string id="colorPink">Pink</string>
+    <string id="colorPinkRed">Pink/Dark Red(night/daytime)</string>
+    <string id="colorGray">Light Gray/Dark Gray(night/daytime)</string>
+    <string id="colorDefault">White/Black(night/daytime)</string>
+    <string id="bgMode_title">Background</string>
+    <string id="bgAuto">Match device screen</string>
+    <string id="bgPlain">Plain black / white (default)</string>
+    <string id="bgClear">Transparent (no fill)</string>
+</strings>

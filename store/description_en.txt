@@ -1,0 +1,41 @@
+[Title]
+zzSpeedPlus - Speed, Avg, Brevet, Lap, Max
+
+[Description]
+A speed data field with big, easy-to-read digits. Shows your current speed together with a second value of your choice, and colors your speed when you are faster or slower than average.
+Built with the TitilliumWeb font for better readability on the move.
+A rebuilt version of zzSpeed.
+
+[Second value]
+- Moving average (stops left out)
+- Absolute average (stops included, brevet pace)
+- Max speed
+- Lap average
+- None
+- Units follow your device setting (km/h or mph).
+
+[Colors]
+- Current speed changes color when it is a set percentage (threshold) faster or slower than the average.
+- Pick separate colors for faster and slower. Each color has a night and day version.
+- The background follows your device setting (white or black).
+
+[Two decimals]
+- Turn on "Show two decimals" to see speed like 25.37. In one slot of a 10-field layout the unit is hidden to make room.
+
+[Layouts, picked automatically]
+- One slot of the 10-field layout: speedometer icon and second value on top, large current speed below.
+- Wide slots: zzSpeedPlus title with the active mode (AVG / BRV / LAP / MAX) on top, both values side by side at the same size below.
+- Same typeface, sizes and layout as the other Plus data fields, so they look consistent side by side.
+
+[Supported devices]
+Edge 540 / 550 / 840 / 850 / 1040 / 1050 / 1060
+
+Change settings in the Garmin Connect IQ app or Garmin Express.
+
+[What's new]
+v1.0.2
+- New background setting (match device screen / plain black-white / transparent)
+- Fixed a white background being painted when the device reports a transparent background
+
+v1.0.1
+- First release

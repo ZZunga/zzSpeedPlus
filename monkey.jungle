@@ -1,0 +1,9 @@
+project.manifest = manifest.xml
+
+edge540.resourcePath  = $(edge540.resourcePath);fonts/f246x322
+edge840.resourcePath  = $(edge840.resourcePath);fonts/f246x322
+edge1040.resourcePath = $(edge1040.resourcePath);fonts/f282x470
+edge550.resourcePath  = $(edge550.resourcePath);fonts/f420x600
+edge850.resourcePath  = $(edge850.resourcePath);fonts/f420x600
+edge1050.resourcePath = $(edge1050.resourcePath);fonts/f480x800
+edge1060.resourcePath = $(edge1060.resourcePath);fonts/f480x800

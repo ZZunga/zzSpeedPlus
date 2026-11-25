@@ -1,0 +1,8 @@
+# Connect IQ 빌드 산출물
+bin/
+*.prg
+*.prg.debug.xml
+*.iq
+
+# 옛 시뮬레이터 캡처 (store/images/ 가 실제 스토어용)
+store/zzSpeedPlus_*.png

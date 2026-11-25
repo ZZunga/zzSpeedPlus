@@ -1,0 +1,32 @@
+<strings>
+    <string id="AppName">zzSpeedPlus</string>
+    <string id="appVersion_title">버전 정보</string>
+
+    <string id="dataMode_title">추가 표시 항목 선택</string>
+    <string id="speedMov_title">이동평균 (정지시간 제외)</string>
+    <string id="speedAbs_title">절대평균 (정지시간 포함, 브레베)</string>
+    <string id="speedMax_title">최대속도</string>
+    <string id="speedLap_title">랩평균</string>
+    <string id="none_title">없음</string>
+    <string id="showTwoDecimal_title">소수 둘째자리 표시</string>
+
+    <string id="threshold">임계값 (0-100)%</string>
+
+    <string id="colorHigh">빠를때 글자 색상</string>
+    <string id="colorLow">느릴때 글자 색상</string>
+    <string id="colorRed">레드/다크레드(야간/주간)</string>
+    <string id="colorOrange">오렌지</string>
+    <string id="colorYellow">옐로우</string>
+    <string id="colorYellowOrange">옐로우/오렌지(야간/주간)</string>
+    <string id="colorGreen">그린/다크그린(야간/주간)</string>
+    <string id="colorBlue">블루/다크블루(야간/주간)</string>
+    <string id="colorPurple">퍼플</string>
+    <string id="colorPink">핑크</string>
+    <string id="colorPinkRed">핑크/다크레드(야간/주간)</string>
+    <string id="colorGray">그레이/다크그레이(야간/주간)</string>
+    <string id="colorDefault">화이트/블랙(야간/주간)</string>
+    <string id="bgMode_title">배경색</string>
+    <string id="bgAuto">기기 화면색에 맞춤</string>
+    <string id="bgPlain">검정 / 흰색 그대로 (기본)</string>
+    <string id="bgClear">투명 (칠하지 않음)</string>
+</strings>

@@ -1,0 +1,63 @@
+<settings>
+    <setting propertyKey="@Properties.appVersion" title="@Strings.appVersion_title">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting>
+
+    <setting propertyKey="@Properties.dataMode" title="@Strings.dataMode_title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.speedMov_title</listEntry>
+            <listEntry value="1">@Strings.speedAbs_title</listEntry>
+            <listEntry value="2">@Strings.speedMax_title</listEntry>
+            <listEntry value="3">@Strings.speedLap_title</listEntry>
+            <listEntry value="4">@Strings.none_title</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.showTwoDecimal" title="@Strings.showTwoDecimal_title">
+        <settingConfig type="boolean" />
+    </setting>
+
+	<setting propertyKey="@Properties.threshold" title="@Strings.threshold">
+		<settingConfig type="numeric" min="0" max="100" />
+	</setting>
+
+	<setting propertyKey="@Properties.colorHigh" title="@Strings.colorHigh">
+		<settingConfig type="list">
+			<listEntry value="1">@Strings.colorRed</listEntry>
+			<listEntry value="2">@Strings.colorOrange</listEntry>
+			<listEntry value="3">@Strings.colorYellow</listEntry>
+			<listEntry value="4">@Strings.colorYellowOrange</listEntry>
+			<listEntry value="5">@Strings.colorGreen</listEntry>
+			<listEntry value="6">@Strings.colorBlue</listEntry>
+			<listEntry value="7">@Strings.colorPurple</listEntry>
+			<listEntry value="8">@Strings.colorPink</listEntry>
+			<listEntry value="9">@Strings.colorPinkRed</listEntry>
+			<listEntry value="10">@Strings.colorGray</listEntry>
+			<listEntry value="0">@Strings.colorDefault</listEntry>
+		</settingConfig>
+	</setting>
+
+	<setting propertyKey="@Properties.colorLow" title="@Strings.colorLow">
+		<settingConfig type="list">
+			<listEntry value="1">@Strings.colorRed</listEntry>
+			<listEntry value="2">@Strings.colorOrange</listEntry>
+			<listEntry value="3">@Strings.colorYellow</listEntry>
+			<listEntry value="4">@Strings.colorYellowOrange</listEntry>
+			<listEntry value="5">@Strings.colorGreen</listEntry>
+			<listEntry value="6">@Strings.colorBlue</listEntry>
+			<listEntry value="7">@Strings.colorPurple</listEntry>
+			<listEntry value="8">@Strings.colorPink</listEntry>
+			<listEntry value="9">@Strings.colorPinkRed</listEntry>
+			<listEntry value="10">@Strings.colorGray</listEntry>
+			<listEntry value="0">@Strings.colorDefault</listEntry>
+		</settingConfig>
+	</setting>
+    
+	<setting propertyKey="@Properties.bgMode" title="@Strings.bgMode_title">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.bgAuto</listEntry>
+			<listEntry value="1">@Strings.bgPlain</listEntry>
+			<listEntry value="2">@Strings.bgClear</listEntry>
+		</settingConfig>
+	</setting>
+</settings>
