@@ -36,6 +36,5 @@ Change settings in the Garmin Connect IQ app or Garmin Express.
 v1.0.2
 - New background setting (match device screen / plain black-white / transparent)
 - Fixed a white background being painted when the device reports a transparent background
-
 v1.0.1
 - First release
