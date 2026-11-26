@@ -40,7 +40,7 @@ class zzSpeedPlusView extends WatchUi.DataField {
     //          1 기기가 알려준 검정·흰색 그대로 (기본, 지금까지의 동작)
     //          2 투명 - 배경을 칠하지 않아 기기 배경이 그대로 비친다
     enum { BG_AUTO, BG_PLAIN, BG_CLEAR }
-    private var _bgMode as Number = BG_PLAIN;
+    private var _bgMode as Number = BG_AUTO;
     private var _speedState as Number = SPEED_NORMAL;
 
     // ---- 레이아웃 ----
@@ -86,7 +86,7 @@ class zzSpeedPlusView extends WatchUi.DataField {
         // dataMode (zzSpeed 와 같은 값): 0 이동평균, 1 절대평균(브레베), 2 최대, 3 랩, 4 없음
         // 배경색 : 0 기기 화면색에 맞춤, 1 검정·흰색 그대로(기본), 2 투명
         var bm = Application.Properties.getValue("bgMode");
-        _bgMode = (bm instanceof Number && bm >= 0 && bm <= 2) ? bm as Number : BG_PLAIN;
+        _bgMode = (bm instanceof Number && bm >= 0 && bm <= 2) ? bm as Number : BG_AUTO;
 
         var m = Application.Properties.getValue("dataMode");
         var MAP = [MODE_AVG, MODE_BREVET, MODE_MAX, MODE_LAP, MODE_SPEED];

@@ -5,6 +5,6 @@
     <property id="threshold" type="number">5</property>
     <property id="colorHigh" type="number">9</property>
     <property id="colorLow" type="number">5</property>
-    <!-- 배경색: 0=기기 화면색에 맞춤 1=검정/흰색 그대로(기본) 2=투명(안 칠함) -->
-    <property id="bgMode" type="number">1</property>
+    <!-- 배경색: 0=기기 화면색에 맞춤(기본) 1=검정/흰색 그대로 2=투명(안 칠함) -->
+    <property id="bgMode" type="number">0</property>
 </properties>
