@@ -1,5 +1,5 @@
 <properties>
-    <property id="appVersion" type="string">1.0.2</property>
+    <property id="appVersion" type="string">1.0.3</property>
     <property id="dataMode" type="number">1</property>
     <property id="showTwoDecimal" type="boolean">false</property>
     <property id="threshold" type="number">5</property>
